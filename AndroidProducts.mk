@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_guacamole.mk
+    $(LOCAL_DIR)/twrp_guacamole.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_guacamole-user \
-    omni_guacamole-userdebug \
-    omni_guacamole-eng
+    twrp_guacamole-user \
+    twrp_guacamole-userdebug \
+    twrp_guacamole-eng

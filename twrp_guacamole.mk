@@ -17,17 +17,17 @@
 # Release name
 PRODUCT_RELEASE_NAME := guacamole
 
-$(call inherit-product, build/target/product/aosp_base.mk)
+#$(call inherit-product, build/target/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/oneplus/guacamole/device.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := guacamole
-PRODUCT_NAME := omni_guacamole
+PRODUCT_NAME := twrp_guacamole
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := GM1917
 PRODUCT_MANUFACTURER := OnePlus
